@@ -53,7 +53,7 @@ def main():
         os.system('clear')
         imprimir_pantalla(lista_letras, vidas)
 
-    imprimir_fin(vidas)
+    imprimir_fin(vidas,palabra)
 
     return 0
 

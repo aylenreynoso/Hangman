@@ -21,8 +21,9 @@ def crear_cadena(lista_letras):
         palabra = palabra + letra + " "
     return palabra
 
-def imprimir_fin(vidas):
+def imprimir_fin(vidas, palabra):
     if vidas == 0:
+        print("\nLa respuesta era: {}\n". format(palabra))
         print(GAMEOVER)
     else:
         print(WIN)
